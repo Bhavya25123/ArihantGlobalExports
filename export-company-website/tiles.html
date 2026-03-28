@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ceramic Tiles | Arihant Global Exports</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {--cream:#f5efe2;--gold:#c8973a;--deep:#2e1a0e;--spice:#ff6b4a;--shadow:0 20px 50px rgba(0,0,0,0.16);--text:#2f2016;--tile:#3a5a7c;}
+    *{box-sizing:border-box;margin:0;padding:0;}body{font-family:'DM Sans',system-ui,sans-serif;background:var(--cream);color:var(--text);line-height:1.6;}a{text-decoration:none;color:inherit;}img{max-width:100%;display:block;} .container{width:min(1180px,92vw);margin:0 auto;} .section-pad{padding:110px 0;}
+    .nav-wrap{position:sticky;top:0;z-index:999;background:rgba(245,239,226,0.95);backdrop-filter:blur(8px);border-bottom:1px solid rgba(0,0,0,0.06);box-shadow:0 8px 20px rgba(0,0,0,0.06);} .nav-inner{display:flex;align-items:center;justify-content:space-between;padding:16px 0;} .brand{display:flex;align-items:center;gap:12px;} .brand-logo{width:46px;height:46px;object-fit:contain;border-radius:10px;background:#fff;padding:5px;box-shadow:0 6px 14px rgba(0,0,0,0.08);} .brand-text span{display:block;} .brand-name{font-weight:800;letter-spacing:-0.2px;color:var(--deep);} .brand-tag{font-size:11px;color:var(--gold);letter-spacing:1px;text-transform:uppercase;} .nav-links{list-style:none;display:flex;gap:20px;font-weight:600;} .nav-links a{position:relative;padding:6px 0;} .nav-links a::after{content:"";position:absolute;left:0;bottom:-4px;width:100%;height:2px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .25s;} .nav-links a:hover::after{transform:scaleX(1);} .nav-cta{background:linear-gradient(135deg,#ff7a4e,#ff4f7a);color:#fff;padding:10px 14px;border-radius:999px;font-weight:700;box-shadow:var(--shadow);} 
+    .hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:50px;align-items:center;padding-top:40px;} .eyebrow{font-size:13px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:12px;} h1,h2,h3{font-family:'Playfair Display','DM Sans',serif;color:var(--deep);} h1{font-size:clamp(34px,5vw,52px);line-height:1.08;} p{color:#3a2a1b;} .hero-desc{font-size:17px;max-width:620px;margin:18px 0 26px;} .btn{display:inline-flex;align-items:center;gap:10px;padding:12px 18px;border-radius:12px;font-weight:700;cursor:pointer;border:2px solid transparent;transition:transform .2s,box-shadow .2s,background .2s,color .2s;} .btn-dark{background:linear-gradient(135deg,#3a5a7c,#1f3346);color:#fff;box-shadow:0 18px 40px rgba(58,90,124,0.28);} .btn-outline{border-color:var(--deep);color:var(--deep);} .btn-outline:hover{background:var(--deep);color:#fff;} .pill-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px;} .pill{background:rgba(0,0,0,0.04);padding:10px 14px;border-radius:999px;font-weight:600;color:var(--deep);border:1px solid rgba(0,0,0,0.06);} .hero-visual{position:relative;min-height:360px;} .hero-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:22px;box-shadow:var(--shadow);} .badge{position:absolute;background:rgba(255,255,255,0.92);padding:12px 14px;border-radius:14px;box-shadow:var(--shadow);font-weight:700;color:var(--deep);border:1px solid rgba(0,0,0,0.04);} .badge.b1{top:16px;left:16px;} .badge.b2{bottom:16px;right:16px;}
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:26px;} .card{background:#fff;border-radius:18px;padding:18px;border:1px solid rgba(0,0,0,0.05);box-shadow:var(--shadow);} .card img{height:160px;width:100%;object-fit:cover;border-radius:14px;margin-bottom:12px;} .card h3{margin:4px 0 6px;} .meta{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0;} .chip{padding:8px 10px;border-radius:10px;background:rgba(0,0,0,0.04);border:1px solid rgba(0,0,0,0.06);font-weight:600;color:var(--deep);} 
+    .trust-badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px;} .badge-chip{background:#fff;border-radius:12px;padding:10px 12px;border:1px solid rgba(0,0,0,0.06);font-weight:600;box-shadow:0 6px 20px rgba(0,0,0,0.08);} 
+    .footer{background:#150d08;color:#e8d8c2;padding:48px 0 28px;margin-top:90px;border-top:1px solid rgba(255,255,255,0.06);} .footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;} .footer-title{font-weight:800;color:#f4e7d6;margin-bottom:10px;} .footer-links a{display:block;color:#d9c8b0;padding:4px 0;font-size:14px;} .footer-links a:hover{color:#fff;} .footer-bottom{border-top:1px solid rgba(255,255,255,0.08);margin-top:18px;padding-top:12px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;color:#cbb89d;font-size:14px;}
+  </style>
+</head>
+<body>
+  <nav class="nav-wrap">
+    <div class="container nav-inner">
+      <div class="brand">
+        <img class="brand-logo" src="images/Arihant%20Global%20exports%20logo.png" alt="Arihant Global Exports logo">
+        <div class="brand-text">
+          <span class="brand-name">Arihant Global</span>
+          <span class="brand-tag">Exports · Ahmedabad, India</span>
+        </div>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a class="nav-cta" href="contact.html">Get In Touch</a>
+    </div>
+  </nav>
+
+  <header class="section-pad">
+    <div class="container hero">
+      <div>
+        <p class="eyebrow">Category 03 — Ceramic Tiles</p>
+        <h1>Indian craftsmanship, global standards.</h1>
+        <p class="hero-desc">Premium tiles sourced from Morbi, Gujarat — offering durability, design variety, and global standards.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-dark" href="#catalog">View Catalog</a>
+          <a class="btn btn-outline" href="contact.html">Request a Quote</a>
+        </div>
+        <div class="pill-row">
+          <span class="pill">Wall Tiles</span><span class="pill">Floor Tiles</span><span class="pill">Vitrified</span><span class="pill">Parking</span><span class="pill">Subway</span><span class="pill">Designer</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img class="hero-img" src="images/Tiles%20main.png" alt="Ceramic tiles">
+        <div class="badge b1">Morbi, Gujarat</div>
+        <div class="badge b2">Wide Size Range</div>
+      </div>
+    </div>
+  </header>
+
+  <section id="catalog" class="section-pad" style="padding-top:40px;">
+    <div class="container">
+      <div class="eyebrow">Tile Range</div>
+      <h2 style="margin-bottom:10px;">Flagship Categories</h2>
+      <p style="max-width:720px;margin-bottom:22px;">Finish, size, and thickness options tailored to your market. Palletized, shrink-wrapped, and export-marked cartons.</p>
+      <ul style="margin-bottom:18px;padding-left:18px;color:#3a2a1b;line-height:1.5;">
+        <li><strong>Why buyers choose these tiles:</strong> Durable, wide design range, residential & commercial use, low water absorption (porcelain), competitive pricing.</li>
+        <li><strong>Why buy from us:</strong> Direct Morbi sourcing, consistent quality, export-safe packaging, flexible container-based supply, reliable timelines.</li>
+      </ul>
+      <div class="cards">
+        <div class="card">
+          <img src="images/Product%20images%20/Wall%20tiles_.png" alt="Wall tiles">
+          <h3>Wall Tiles</h3>
+          <p>Smooth finish; diverse designs and sizes for bathrooms, kitchens, and facades.</p>
+          <div class="meta"><span class="chip">Gloss & Matte</span><span class="chip">300x600</span><span class="chip">300x450</span></div>
+        </div>
+        <div class="card">
+          <img src="images/Product%20images%20/Floor%20tiles_.png" alt="Floor tiles">
+          <h3>Floor Tiles</h3>
+          <p>Durable, anti-skid options suitable for residential and commercial use.</p>
+          <div class="meta"><span class="chip">Anti-skid</span><span class="chip">600x600</span><span class="chip">800x800</span></div>
+        </div>
+        <div class="card">
+          <img src="images/Product%20images%20/Vitrified%20tiles_.png" alt="Vitrified tiles">
+          <h3>Vitrified Tiles</h3>
+          <p>High gloss, low porosity tiles for premium interiors and high-traffic areas.</p>
+          <div class="meta"><span class="chip">Double Charge</span><span class="chip">Nano Polish</span><span class="chip">600x1200</span></div>
+        </div>
+        <div class="card">
+          <img src="images/Product%20images%20/Parking%20tiles_.png" alt="Parking tiles">
+          <h3>Parking Tiles</h3>
+          <p>Heavy-duty, weather-resistant tiles designed for outdoor and parking use.</p>
+          <div class="meta"><span class="chip">Anti-skid</span><span class="chip">300x300</span><span class="chip">Thick Body</span></div>
+        </div>
+        <div class="card">
+          <img src="images/Product%20images%20/Subway_%20metro%20tiles_.png" alt="Subway tiles">
+          <h3>Subway / Metro Tiles</h3>
+          <p>Classic bevelled subway tiles; timeless looks for kitchens and commercial spaces.</p>
+          <div class="meta"><span class="chip">Bevelled</span><span class="chip">Gloss & Matte</span></div>
+        </div>
+        <div class="card">
+          <img src="images/Product%20images%20/Decorative%20tiles_.png" alt="Decorative tiles">
+          <h3>Designer / Decorative Tiles</h3>
+          <p>Patterns, textures, and finishes to make interiors stand out.</p>
+          <div class="meta"><span class="chip">Mixed Textures</span><span class="chip">Custom</span><span class="chip">Made in Morbi</span></div>
+        </div>
+      </div>
+      <div class="trust-badges">
+        <span class="badge-chip">✅ Export Quality Assured</span>
+        <span class="badge-chip">📦 Palletized Packing</span>
+        <span class="badge-chip">🚢 Worldwide Shipping</span>
+        <span class="badge-chip">📋 Documentation Support</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="brand" style="margin-bottom:10px;">
+            <img class="brand-logo" src="images/Arihant%20Global%20exports%20logo.png" alt="logo">
+            <div class="brand-text">
+              <span class="brand-name" style="color:#f4e7d6;">Arihant Global Exports</span>
+              <span class="brand-tag" style="color:var(--gold);">Ahmedabad, India</span>
+            </div>
+          </div>
+          <p style="color:#d7c5ac;">Premium Indian exports built on honesty, quality, and genuine partnerships.</p>
+        </div>
+        <div>
+          <div class="footer-title">Products</div>
+          <div class="footer-links">
+            <a href="spices.html">Premium Spices</a>
+            <a href="agri.html">Agri & Nutritional</a>
+            <a href="tiles.html">Ceramic Tiles</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-title">Company</div>
+          <div class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-title">Contact</div>
+          <div class="footer-links">
+            <a href="mailto:arihantglobalexporters@gmail.com">arihantglobalexporters@gmail.com</a>
+            <a href="tel:+917434988777">+91 74349 88777</a>
+            <a href="https://wa.me/917434988777" target="_blank" rel="noreferrer">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Arihant Global Exports. All rights reserved.</span>
+        <span>Made with 🌿 in Ahmedabad, India</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
