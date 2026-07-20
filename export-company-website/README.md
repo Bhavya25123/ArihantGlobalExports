@@ -1,7 +1,7 @@
 # Export Company Website
 
 ## Overview
-This project is a modern, professional, and responsive business website for an export company specializing in agro spice products. The website is designed to appeal to buyers, wholesalers, and import/export clients, showcasing the company's commitment to quality and reliability.
+This project is a modern, professional, and responsive business website for an export company specializing in furniture, marble & granite, and ceramic tile products. The website is designed to appeal to buyers, wholesalers, and import/export clients, showcasing the company's commitment to quality and reliability.
 
 ## Project Structure
 The project consists of the following files:
@@ -10,7 +10,7 @@ The project consists of the following files:
   
 - **about.html**: Provides detailed information about the company, including its introduction, mission, vision, quality commitment, and reasons why international buyers trust the company.
   
-- **products.html**: Displays all spice products in a professional grid format, including short descriptions and inquiry buttons. This page is categorized under "Agro & Spice Products."
+- **products.html**: Displays the main product categories in a professional grid format, including short descriptions and inquiry buttons.
   
 - **contact.html**: Contains a contact form with fields for name, email, phone, product interested in, and message. It also includes company contact details and a placeholder for a map.
   
@@ -20,8 +20,8 @@ The project consists of the following files:
   
 - **images/**: A folder containing image assets for the website:
   - **logo.png**: Placeholder for the company logo.
-  - **product-placeholder-1.jpg** to **product-placeholder-5.jpg**: Dummy images for the spice products.
-  - **background.jpg**: A professional spice-themed background image for the hero section.
+  - Product images for furniture, marble & granite, and tiles.
+  - Light patterned background styling in `style.css`.
 
 ## Setup Instructions
 1. Clone the repository or download the project files.

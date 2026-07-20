@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
           <a href="https://wa.me/917434988777" aria-label="WhatsApp" target="_blank" rel="noreferrer">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 2.6 19.3L2 23l3.8-1a11.5 11.5 0 1 0 6.2-21.5Zm0 21a9.5 9.5 0 0 1-4.8-1.3l-.3-.2-2.3.6.6-2.3-.2-.3a9.5 9.5 0 1 1 6.9 3.5Zm5.4-7.2c-.3-.2-1.8-.9-2-.9s-.3-.1-.5.2-.6.9-.8 1c-.1.2-.3.2-.6.1a7.8 7.8 0 0 1-3.8-3.3c-.3-.5.4-.5.5-1.1 0-.1 0-.2-.1-.3l-1-2.4c-.2-.5-.4-.5-.6-.5h-.5c-.2 0-.5.1-.8.3s-1 1-1 2.4 1 2.7 1.1 2.9a8.6 8.6 0 0 0 3.2 3 3.7 3.7 0 0 0 2.2.7 2 2 0 0 0 1.4-.6c.2-.3.6-.8.6-1s0-.2 0-.3-.3-.2-.6-.4Z"/></svg>
           </a>
-          <a href="https://www.instagram.com/arihantglobalexporters?igsh=MXgyYWNsNzV1dDRs" aria-label="Instagram" target="_blank" rel="noreferrer">
+          <a href="https://www.instagram.com/arihant.globalexports?igsh=MTUxc2VrZzAwcnByNQ==" aria-label="Instagram" target="_blank" rel="noreferrer">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2"/></svg>
           </a>
           <a href="https://www.linkedin.com/company/arihant-global-exports/" aria-label="LinkedIn" target="_blank" rel="noreferrer">
